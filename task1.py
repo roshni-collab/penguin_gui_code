@@ -20,7 +20,8 @@ def transpose_matrix(matrix):
 
     #Loop through rows
     for i in range(rows):
-        pass # Placeholder for now.
+        for j in range(cols):
+            pass # Placeholder for now.
 
 
     
