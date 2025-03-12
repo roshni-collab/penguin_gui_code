@@ -21,6 +21,7 @@ def transpose_matrix(matrix):
     #Loop through rows
     for i in range(rows):
         for j in range(cols):
+            transposed[j][i] = matrix[i][j] # Swappping indices
             pass # Placeholder for now.
 
 
