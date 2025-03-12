@@ -22,7 +22,6 @@ def transpose_matrix(matrix):
     for i in range(rows):
         for j in range(cols):
             transposed[j][i] = matrix[i][j] # Swappping indices
-            pass # Placeholder for now.
-
+            transposed[j].append(matrix[i][j]) # Append Values
 
     
