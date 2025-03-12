@@ -18,5 +18,9 @@ def transpose_matrix(matrix):
     # Initialize the transposed matrix with empty lists
     transposed = [[0] * rows for _ in range(cols)]  # Creating cols x rows matrix
 
+    #Loop through rows
+    for i in range(rows):
+        pass # Placeholder for now.
+
 
     
