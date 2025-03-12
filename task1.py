@@ -23,5 +23,7 @@ def transpose_matrix(matrix):
         for j in range(cols):
             transposed[j][i] = matrix[i][j] # Swappping indices
             transposed[j].append(matrix[i][j]) # Append Values
+        print(f"After processing row {i + 1}:")
+        print_matrix(transposed)
 
     
